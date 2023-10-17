@@ -1,1 +1,23 @@
 /* Your code here */
+
+li{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border: 5px solid white;
+    list-style: none;
+}
+
+li:hover{
+    background-color: yellow;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ttt{
+    height: 400px;
+    width: 400px;
+}
