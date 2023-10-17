@@ -44,7 +44,7 @@ class View {
   
   handleGameOver() {
     if (this.game.isOver()) {
-    alert(this.game.winner()) ;
+    alert(`${this.game.winner()} won!`) ;
     }
   }
 }
